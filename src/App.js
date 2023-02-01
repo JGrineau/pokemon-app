@@ -23,6 +23,8 @@ function App() {
       setPokemon(res.data.results.map(p => p.name))
   })
 
+  
+
   return () => cancel()
 
 }, [currentPageUrl])
